@@ -1,0 +1,142 @@
+/* Sections Part */
+.imageDiv {
+	float: left;
+	padding-top: 5PX;
+	padding-left: 5PX;
+}
+
+.dialogDiv {
+	float: right;
+	width: 200px;
+	padding-top: 20PX;
+	padding-left: 5PX;
+}
+
+.responceDiv {
+	text-align: right;
+	clear: both;
+	padding-right: 5PX;
+}
+
+.inputTextDiv {
+	padding-left: 20px;
+}
+
+.inputDateDiv {
+	
+}
+/* Elements Part*/
+.dialogButton {
+	width: 60PX;
+}
+
+.dialogMessage {
+	font-size: 14PX;
+	font-weight: bold;
+}
+
+.dialogImage {
+	width: 45PX;
+	height: 45PX;
+}
+
+.inputText {
+	
+}
+
+.inputDate {
+	
+}
+
+.spacer {
+	clear: both;
+	height: 1px;
+	display: block;
+}
+
+.loginDialogMessage {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.loginDialogMessageDiv {
+	float: right;
+	width: 200px;
+	padding-top: 20PX;
+	padding-left: 5PX;
+}
+
+.loginTextBoxes {
+	width: 200;
+	padding-left: 25PX;
+}
+
+.userLbl {
+	font-size: 12px;
+}
+
+.mainTitle {
+	width: 100%;
+	background-color: #eeeeee;
+	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee),
+		color-stop(100%, #cccccc) );
+	background: -webkit-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+	background: -o-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+	background: -ms-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+	background: linear-gradient(to bottom, #eeeeee 0%, #cccccc 100%);
+	height: 25px;
+}
+
+.back {
+	z-index: 10;
+	background-color: red; width : 100%;
+	position: absolute;
+	width: 100%;
+}
+
+.titleText {
+	float: left;
+	padding-left: 3px;
+	z-index: 100;
+}
+
+.closeButton {
+	float: right;	
+	z-index: 100;
+	background: #aaaaaa;
+	background-image: -webkit-linear-gradient(top, #aaaaaa, #999999);
+	background-image: -moz-linear-gradient(top, #aaaaaa, #999999);
+	background-image: -ms-linear-gradient(top, #aaaaaa, #999999);
+	background-image: -o-linear-gradient(top, #aaaaaa, #999999);
+	background-image: linear-gradient(to bottom, #aaaaaa, #999999);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #000000;
+	font-size: 12px;
+	padding: 2px 6px 2px 6px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.closeButton:hover {
+	background: #aaaaaa;
+	background-image: -webkit-linear-gradient(top, #aaaaaa, #bbbbbb);
+	background-image: -moz-linear-gradient(top, #aaaaaa, #bbbbbb);
+	background-image: -ms-linear-gradient(top, #aaaaaa, #bbbbbb);
+	background-image: -o-linear-gradient(top, #aaaaaa, #bbbbbb);
+	background-image: linear-gradient(to bottom, #aaaaaa, #bbbbbb);
+	text-decoration: none;
+}
+
+.closeButton:active {
+	background: #aaaaaa;
+	background-image: -webkit-linear-gradient(top, #aaaaaa, red);
+	background-image: -moz-linear-gradient(top, #aaaaaa, red);
+	background-image: -ms-linear-gradient(top, #aaaaaa, red);
+	background-image: -o-linear-gradient(top, #aaaaaa, red);
+	background-image: linear-gradient(to bottom, #aaaaaa, red);
+	text-decoration: none;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	 <ui:style src="StyleMessage.css" />
+
+	<g:HTMLPanel>
+	<div ui:field='mainDiv' class='{style.mainDiv}'>
+		<div ui:field='imageDiv' class='{style.waitingImgDiv}'>
+			<g:Image ui:field='wiatingImg' styleName="{style.waitingImg}" url="Theme/waiting.gif"/>
+		</div>
+
+		<div ui:field='dialogDiv' class='{style.dialogDiv}'>
+			<g:Label ui:field='dialogMessage'  styleName="{style.dialogMessage}"></g:Label>
+		</div>
+			<div class='{style.spacer}'></div>
+	</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

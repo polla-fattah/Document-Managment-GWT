@@ -1,0 +1,10 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	 <ui:style src="Style.css" />
+	<g:HTMLPanel ui:field='mainTitle'  styleName='{style.mainTitle}'>
+		<g:HTML ui:field='title'  styleName='{style.titleText}'></g:HTML>
+		<g:HTML ui:field='close'  styleName='{style.closeButton}'>x</g:HTML>		
+		<g:HTML ui:field='back'  styleName='{style.back'>x</g:HTML>		
+			</g:HTMLPanel>
+</ui:UiBinder>

@@ -1,0 +1,17 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	 <ui:style src="Style.css" />
+	<g:HTMLPanel>
+		<div ui:field='imageDiv' class='{style.imageDiv}'>
+			<g:Image ui:field='promptImage' styleName="{style.dialogImage}" url="Theme/question.png"/>
+		</div>
+		<div ui:field='dialogDiv' class='{style.dialogDiv}'>
+			<g:Label ui:field='promptMessage'  styleName="{style.dialogMessage}"></g:Label>
+		</div>
+		<div ui:field='responceDiv' class='{style.responceDiv}'>
+			<g:Button styleName="{style.dialogButton}" ui:field="okButton" text="OK"/>
+			<g:Button styleName="{style.dialogButton}" ui:field="cancelButton" text="Cancel"/>
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

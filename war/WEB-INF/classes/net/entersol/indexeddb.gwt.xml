@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='indexeddb'>
+  <inherits name='com.google.gwt.user.User'/>
+  <inherits name='net.entersol.iogate'/>
+  <inherits name='net.entersol.gdbc'/>
+  <source path='indexeddb'/>
+</module>

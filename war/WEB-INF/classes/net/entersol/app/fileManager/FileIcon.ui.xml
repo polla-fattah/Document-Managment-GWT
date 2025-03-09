@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	 <ui:style src="Style.css" />
+	<g:HTMLPanel ui:field="icon" styleName="{style.icon}">
+
+		<div ui:field='starDiv' class='{style.starDiv}'>
+			<g:Image ui:field='star' styleName="{style.star}"/>
+		</div>
+	    <div ui:field='fileIconDiv' class='{style.fileIconDiv'>
+			<g:Image ui:field='fileIcon' styleName="{style.fileIcon}"/>
+		</div>
+		<div ui:field='fileNameDiv' class='{style.fileNameDiv}'>
+			<g:Label ui:field='fileName'  styleName="{style.fileName}"></g:Label>
+		</div>
+
+	</g:HTMLPanel>
+</ui:UiBinder> 
